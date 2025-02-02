@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.nav-links a.active {
+    color: #1d4ed8; /* Warna biru */
+    font-weight: bold;
+    border-bottom: 2px solid #1d4ed8;
+    transition: all 0.3s ease-in-out;
+}
